@@ -1,3 +1,6 @@
+# README
+Python implementation for detecting DDOS attacks using suffix trees. Implementation for suffix trees is used from https://github.com/mazdaka/SuffixTree.
+
 ## Preamble
 
 This module is an optimized implementation of Ukkonen's suffix tree algorithm in python which **will** be having most of the important text processing functionalities such as:
