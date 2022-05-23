@@ -1,5 +1,5 @@
 # README
-Python implementation for detecting DDOS attacks using suffix trees. Implementation for suffix trees is used from https://github.com/mazdaka/SuffixTree.
+Python implementation for detecting DDOS attacks using suffix trees and python packet "Scapy". Implementation for suffix trees is used from https://github.com/mazdaka/SuffixTree.
 
 ## Preamble
 
