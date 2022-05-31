@@ -197,6 +197,10 @@ class SuffixTree:
     def build_suffix_tree(self):
         self.size = len(self._string)
 
+        if self.size % 2 == 1:
+            print("Odd length of string!")
+            return -1
+
         """Root is a special node with start and end indices as -1,
         as it has no parent from where an edge comes to root"""
         self.rootEnd = -1

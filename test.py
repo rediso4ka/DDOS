@@ -1,5 +1,5 @@
-from SuffixTree.suffixtree import SuffixTree
-from SuffixTree.modules import CheckSubString
+from SuffixTree.payload_suffix_tree import SuffixTree
+from SuffixTree.payload_modules import CheckSubString
 
 legit = ["ABCD$", "AATT$", "ME$", "MAAM$", "BANANA$", "DANANA$", "ATAT$"]
 income = ["ATTACK", "CRIME", "BANAN", "ABCD", "BANANA",
