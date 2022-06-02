@@ -14,7 +14,8 @@ for i in range(100):
         legit_tree.add(str(i), bytes(payload))
     except LookupError:
         continue
-
+for C, path in sorted(legit_tree.maximal_repeats()):
+    print(C, path)
 
 '''
 Reading DNS packages
