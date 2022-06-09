@@ -12,7 +12,7 @@ retrieval.
 ```shell
   pip install suffix-tree
 ```
-```code-block:: python
+```python
   from suffix_tree import Tree
 
   >>> tree = Tree ({ 'A' : 'xabxac' })
